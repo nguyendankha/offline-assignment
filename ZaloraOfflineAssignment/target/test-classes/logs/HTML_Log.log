@@ -1,0 +1,9 @@
+05:17:01,330  INFO logger:47 - Initiation starting.
+05:17:01,335  INFO logger:72 - Loading D:\SeleniumOfflineAssignment\ZaloraOfflineAssignment\src\test\resources\properties\Config.properties file
+05:17:01,335  INFO logger:75 - D:\SeleniumOfflineAssignment\ZaloraOfflineAssignment\src\test\resources\properties\Config.properties loaded.
+05:17:01,336  INFO logger:83 - Loading D:\SeleniumOfflineAssignment\ZaloraOfflineAssignment\src\test\resources\properties\ObjectRepository.properties file
+05:17:01,336  INFO logger:86 - D:\SeleniumOfflineAssignment\ZaloraOfflineAssignment\src\test\resources\properties\ObjectRepository.properties loaded.
+05:17:04,325  INFO logger:97 - chrome driver loaded.
+05:17:09,625  INFO logger:133 - Navigated to https://www.zalora.sg/
+05:17:09,626  INFO logger:55 - Initiation done, ready for running test.
+05:17:10,396  INFO logger:64 - Driver quit. Test ended.
