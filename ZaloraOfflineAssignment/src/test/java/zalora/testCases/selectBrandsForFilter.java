@@ -15,7 +15,7 @@ public class selectBrandsForFilter extends TestBase{
 		HomePage home = new HomePage();
 		MenCataLoguePage menCatalogue = home.navigateToMenProductPage();
 		menCatalogue.searchBrand(brand1);
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		
 		menCatalogue.searchBrand(brand2);
 		Thread.sleep(5000);
