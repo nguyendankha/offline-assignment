@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaskOne">
+	<test thread-count="5" name="SelectBrandsInFilter">
+		<parameter name="brand1" value="adidas" />
+		<parameter name="brand2" value="FILA" />
+		<parameter name="brand3" value="CR7" />
+		<parameter name="brand4" value="Armani Exchange" />
+		<parameter name="brand5" value="BOSS" />
+		<classes>
+			<class name="zalora.testCases.selectBrandsForFilter" />
+		</classes>
+	</test> <!-- SelectBrandsInFilter -->
+</suite> <!-- TaskOne -->
