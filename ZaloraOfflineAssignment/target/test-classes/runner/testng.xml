@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TaskOne">
-	<test thread-count="5" name="SelectBrandsInFilter">
+<suite name="Zalora Offline Assignment">
+	<test name="SelectBrandsInFilter">
 		<classes>
 			<class name="zalora.testCases.selectBrandsForFilter" />
 		</classes>
-	</test> <!-- SelectBrandsInFilter -->
-</suite> <!-- TaskOne -->
+	</test>
+	<test name="searchAndAddProductToCart">
+		<classes>
+			<class name="zalora.testCases.searchAndAddProductToCart" />
+		</classes>
+	</test>
+</suite>

@@ -7,7 +7,7 @@ import zalora.pages.MenCataLoguePage;
 
 public class selectBrandsForFilter extends TestBase{
 	@Test
-	public void selectBrandsForFiltering() throws InterruptedException {
+	public void selectBrandsForFiltering(){
 		HomePage home = new HomePage();
 		MenCataLoguePage menCatalogue = home.navigateToMenProductPage();
 		menCatalogue.selectBrands();

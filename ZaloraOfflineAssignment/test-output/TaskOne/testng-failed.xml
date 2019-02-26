@@ -11,7 +11,7 @@
       <class name="zalora.testCases.selectBrandsForFilter">
         <methods>
           <include name="teardown"/>
-          <include name="selectBrandsForFiltering" invocation-numbers="0"/>
+          <include name="selectBrandsForFiltering"/>
         </methods>
       </class> <!-- zalora.testCases.selectBrandsForFilter -->
     </classes>

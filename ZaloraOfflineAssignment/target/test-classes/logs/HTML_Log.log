@@ -1,61 +1,73 @@
-13:56:44,857  INFO logger:41 - Initiation starting.
-13:56:44,859  INFO logger:66 - Loading E:\git\ZaloraOfflineAssignment\src\test\resources\properties\Config.properties file
-13:56:44,860  INFO logger:69 - E:\git\ZaloraOfflineAssignment\src\test\resources\properties\Config.properties loaded.
-13:56:44,860  INFO logger:77 - Loading E:\git\ZaloraOfflineAssignment\src\test\resources\properties\ObjectRepository.properties file
-13:56:44,860  INFO logger:80 - E:\git\ZaloraOfflineAssignment\src\test\resources\properties\ObjectRepository.properties loaded.
-13:56:47,425  INFO logger:91 - chrome driver loaded.
-13:56:56,388  INFO logger:127 - Navigated to https://alice.16895.shop.zalora.io/
-13:56:56,388  INFO logger:49 - Initiation done, ready for running test.
-13:56:56,414  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //span[@class='phl seg-bar__segments']//li[@class='segSelect fontsizeL txtCenter prl js-header__segment-men']//a[@class='a-white b-header__clickable b-header__segment-text txtUpper'][contains(text(),'MEN')]] found
-13:57:04,451  INFO logger:140 - By.xpath: //span[@class='phl seg-bar__segments']//li[@class='segSelect fontsizeL txtCenter prl js-header__segment-men']//a[@class='a-white b-header__clickable b-header__segment-text txtUpper'][contains(text(),'MEN')]is clicked.
-13:57:04,805  INFO logger:192 - Page title 'Buy MEN'S FASHION Online | ZALORA Singapore' is correct.
-13:57:06,000  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //a[contains(text(),'Clothing')]] found
-13:57:13,156  INFO logger:140 - By.xpath: //a[contains(text(),'Clothing')]is clicked.
-13:57:13,325  INFO logger:192 - Page title 'Buy Mens Clothing Online | ZALORA Singapore' is correct.
-13:57:13,326  WARN logger:51 - Driver is running already.
-13:57:13,474  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //input[@placeholder='Search brand...']] found
-13:57:13,645  INFO logger:161 - Enter 'adidas' into By.xpath: //input[@placeholder='Search brand...']
-13:57:13,740  INFO logger:140 - By.xpath: //strong[contains(text(),'adidas')]/parent::spanis clicked.
-13:57:14,861  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'adidas')]] found
-13:57:14,876  INFO logger:114 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'adidas')] is presented
-13:57:14,876  INFO logger:32 - adidas is selected from brand list.
-13:57:14,893  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'adidas')]] found
-13:57:14,910  INFO logger:114 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'adidas')] is presented
-13:57:14,911  INFO logger:45 - adidas is displayed in Your Choice section.
-13:57:14,921  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //input[@placeholder='Search brand...']] found
-13:57:15,040  INFO logger:161 - Enter 'FILA' into By.xpath: //input[@placeholder='Search brand...']
-13:57:15,137  INFO logger:140 - By.xpath: //strong[contains(text(),'FILA')]/parent::spanis clicked.
-13:57:15,717  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'FILA')]] found
-13:57:15,735  INFO logger:114 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'FILA')] is presented
-13:57:15,736  INFO logger:32 - FILA is selected from brand list.
-13:57:15,752  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'FILA')]] found
-13:57:15,765  INFO logger:114 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'FILA')] is presented
-13:57:15,765  INFO logger:45 - FILA is displayed in Your Choice section.
-13:57:15,778  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //input[@placeholder='Search brand...']] found
-13:57:16,085  INFO logger:161 - Enter 'Armani Exchange' into By.xpath: //input[@placeholder='Search brand...']
-13:57:16,575  INFO logger:140 - By.xpath: //strong[contains(text(),'Armani Exchange')]/parent::spanis clicked.
-13:57:17,145  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'Armani Exchange')]] found
-13:57:17,163  INFO logger:114 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'Armani Exchange')] is presented
-13:57:17,163  INFO logger:32 - Armani Exchange is selected from brand list.
-13:57:17,180  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'Armani Exchange')]] found
-13:57:17,196  INFO logger:114 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'Armani Exchange')] is presented
-13:57:17,197  INFO logger:45 - Armani Exchange is displayed in Your Choice section.
-13:57:17,205  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //input[@placeholder='Search brand...']] found
-13:57:17,323  INFO logger:161 - Enter 'CR7' into By.xpath: //input[@placeholder='Search brand...']
-13:57:17,403  INFO logger:140 - By.xpath: //strong[contains(text(),'CR7')]/parent::spanis clicked.
-13:57:18,006  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'CR7')]] found
-13:57:18,019  INFO logger:114 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'CR7')] is presented
-13:57:18,019  INFO logger:32 - CR7 is selected from brand list.
-13:57:18,032  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'CR7')]] found
-13:57:18,046  INFO logger:114 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'CR7')] is presented
-13:57:18,046  INFO logger:45 - CR7 is displayed in Your Choice section.
-13:57:18,055  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //input[@placeholder='Search brand...']] found
-13:57:18,201  INFO logger:161 - Enter 'BOSS' into By.xpath: //input[@placeholder='Search brand...']
-13:57:19,039  INFO logger:140 - By.xpath: //strong[contains(text(),'BOSS')]/parent::spanis clicked.
-13:57:19,053  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'BOSS')]] found
-13:57:19,067  INFO logger:114 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'BOSS')] is presented
-13:57:19,068  INFO logger:32 - BOSS is selected from brand list.
-13:57:19,082  INFO logger:150 - Element [[ChromeDriver: chrome on XP (e2c43653435920366c27b3783235bfa2)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'BOSS')]] found
-13:57:19,096  INFO logger:114 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'BOSS')] is presented
-13:57:19,096  INFO logger:45 - BOSS is displayed in Your Choice section.
-13:57:20,083  INFO logger:58 - Driver quit. Test ended.
+21:50:23,657  INFO logger:43 - Initiation starting.
+21:50:23,659  INFO logger:69 - Loading E:\git\ZaloraOfflineAssignment\src\test\resources\properties\Config.properties file
+21:50:23,660  INFO logger:72 - E:\git\ZaloraOfflineAssignment\src\test\resources\properties\Config.properties loaded.
+21:50:23,660  INFO logger:80 - Loading E:\git\ZaloraOfflineAssignment\src\test\resources\properties\ObjectRepository.properties file
+21:50:23,660  INFO logger:83 - E:\git\ZaloraOfflineAssignment\src\test\resources\properties\ObjectRepository.properties loaded.
+21:50:26,205  INFO logger:94 - chrome driver loaded.
+21:50:37,290  INFO logger:130 - Navigated to https://alice.16895.shop.zalora.io/
+21:50:37,291  INFO logger:51 - Initiation done, ready for running test.
+21:50:37,341  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //div[@class='eg-close-step-1 eg-invisibleButton']] found
+21:50:37,384 ERROR logger:145 - By.xpath: //div[@class='eg-close-step-1 eg-invisibleButton'] cannot be clicked.
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC-000951-2', ip: '10.192.12.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\k000951\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53846}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: ebccaf79e9bdb6a0e94245c99b44f3ec
+21:50:37,401  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //span[@class='phl seg-bar__segments']//li[@class='segSelect fontsizeL txtCenter prl js-header__segment-men']//a[@class='a-white b-header__clickable b-header__segment-text txtUpper'][contains(text(),'MEN')]] found
+21:50:41,125  INFO logger:143 - By.xpath: //span[@class='phl seg-bar__segments']//li[@class='segSelect fontsizeL txtCenter prl js-header__segment-men']//a[@class='a-white b-header__clickable b-header__segment-text txtUpper'][contains(text(),'MEN')]is clicked.
+21:50:42,384  INFO logger:207 - Page title 'Buy MEN'S FASHION Online | ZALORA Singapore' is correct.
+21:50:42,398  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //a[contains(text(),'Clothing')]] found
+21:50:45,804  INFO logger:143 - By.xpath: //a[contains(text(),'Clothing')]is clicked.
+21:50:45,876  INFO logger:207 - Page title 'Buy Mens Clothing Online | ZALORA Singapore' is correct.
+21:50:46,135  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //input[@placeholder='Search brand...']] found
+21:50:46,298  INFO logger:176 - Enter 'adidas' into By.xpath: //input[@placeholder='Search brand...']
+21:50:46,389  INFO logger:143 - By.xpath: //strong[contains(text(),'adidas')]/parent::spanis clicked.
+21:50:47,440  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'adidas')]] found
+21:50:47,456  INFO logger:117 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'adidas')] is presented
+21:50:47,456  INFO logger:34 - adidas is selected from brand list.
+21:50:47,474  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'adidas')]] found
+21:50:47,486  INFO logger:117 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'adidas')] is presented
+21:50:47,486  INFO logger:47 - adidas is displayed in Your Choice section.
+21:50:47,499  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //input[@placeholder='Search brand...']] found
+21:50:47,642  INFO logger:176 - Enter 'FILA' into By.xpath: //input[@placeholder='Search brand...']
+21:50:47,729  INFO logger:143 - By.xpath: //strong[contains(text(),'FILA')]/parent::spanis clicked.
+21:50:48,585  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'FILA')]] found
+21:50:48,599  INFO logger:117 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'FILA')] is presented
+21:50:48,599  INFO logger:34 - FILA is selected from brand list.
+21:50:48,614  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'FILA')]] found
+21:50:48,627  INFO logger:117 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'FILA')] is presented
+21:50:48,627  INFO logger:47 - FILA is displayed in Your Choice section.
+21:50:48,636  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //input[@placeholder='Search brand...']] found
+21:50:48,917  INFO logger:176 - Enter 'Armani Exchange' into By.xpath: //input[@placeholder='Search brand...']
+21:50:48,996  INFO logger:143 - By.xpath: //strong[contains(text(),'Armani Exchange')]/parent::spanis clicked.
+21:50:49,600  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'Armani Exchange')]] found
+21:50:49,619  INFO logger:117 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'Armani Exchange')] is presented
+21:50:49,619  INFO logger:34 - Armani Exchange is selected from brand list.
+21:50:49,639  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'Armani Exchange')]] found
+21:50:49,653  INFO logger:117 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'Armani Exchange')] is presented
+21:50:49,653  INFO logger:47 - Armani Exchange is displayed in Your Choice section.
+21:50:49,666  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //input[@placeholder='Search brand...']] found
+21:50:50,287  INFO logger:176 - Enter 'CR7' into By.xpath: //input[@placeholder='Search brand...']
+21:50:50,377  INFO logger:143 - By.xpath: //strong[contains(text(),'CR7')]/parent::spanis clicked.
+21:50:50,996  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'CR7')]] found
+21:50:51,011  INFO logger:117 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'CR7')] is presented
+21:50:51,011  INFO logger:34 - CR7 is selected from brand list.
+21:50:51,023  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'CR7')]] found
+21:50:51,042  INFO logger:117 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'CR7')] is presented
+21:50:51,042  INFO logger:47 - CR7 is displayed in Your Choice section.
+21:50:51,055  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //input[@placeholder='Search brand...']] found
+21:50:51,566  INFO logger:176 - Enter 'BOSS' into By.xpath: //input[@placeholder='Search brand...']
+21:50:51,622  INFO logger:143 - By.xpath: //strong[contains(text(),'BOSS')]/parent::spanis clicked.
+21:50:52,251  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'BOSS')]] found
+21:50:52,266  INFO logger:117 - Element By.xpath: //ul[@id='selectedBrands']//span[contains(@class,'js-brandName')][contains(text(),'BOSS')] is presented
+21:50:52,266  INFO logger:34 - BOSS is selected from brand list.
+21:50:52,280  INFO logger:153 - Element [[ChromeDriver: chrome on XP (ebccaf79e9bdb6a0e94245c99b44f3ec)] -> xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'BOSS')]] found
+21:50:52,295  INFO logger:117 - Element By.xpath: //div[div[contains(text(),'Your Choice')]]//a[contains(text(),'BOSS')] is presented
+21:50:52,295  INFO logger:47 - BOSS is displayed in Your Choice section.
+21:50:53,284  INFO logger:61 - Driver quit. Test ended.
+21:50:53,298  WARN logger:53 - Driver is running already.
+21:50:53,305  INFO logger:61 - Driver quit. Test ended.

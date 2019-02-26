@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -36,7 +37,8 @@ public class Page {
 			+ "\\src\\test\\resources\\properties\\ObjectRepository.properties");
 	public static String expectedPageTitle;
 	
-	public Page() {
+//	public Page() {
+	public static void init() {
 		if (driver == null) {
 			log.info("Initiation starting.");
 			// Loading Config properties file
@@ -51,6 +53,7 @@ public class Page {
 			log.warn("Driver is running already.");
 		}
 	}
+	//}
 
 	public static void teardown() {
 		if (driver != null) {
@@ -154,6 +157,18 @@ public class Page {
 			return null;
 		}
 	}
+	
+	public static List<WebElement> findElements(By by) {
+		try {
+			wait = new WebDriverWait(driver, Integer.parseInt(configProp.getProperty("webdriver.wait")));
+			List<WebElement> elements = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
+			log.info("List of elements " + elements + " found");
+			return elements;
+		} catch (NoSuchElementException e) {
+			log.error("Elements " + by + " not found.");
+			return null;
+		}
+	}
 
 	public static void sendValue(By by, String value) {
 		try {
@@ -196,7 +211,5 @@ public class Page {
 			return false;
 		}
 	}
-	
-	
 
 }

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TaskOne]">
-  <test thread-count="5" name="SelectBrandsInFilter(failed)">
-    <parameter name="brand5" value="BOSS"/>
-    <parameter name="brand4" value="Armani Exchange"/>
-    <parameter name="brand3" value="CR7"/>
-    <parameter name="brand2" value="FILA"/>
-    <parameter name="brand1" value="adidas"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Zalora Offline Assignment]">
+  <test thread-count="5" name="searchAndAddProductToCart(failed)">
     <classes>
-      <class name="zalora.testCases.selectBrandsForFilter">
+      <class name="zalora.testCases.searchAndAddProductToCart">
         <methods>
+          <include name="init"/>
+          <include name="searchAndAddProduct"/>
           <include name="teardown"/>
-          <include name="selectBrandsForFiltering" invocation-numbers="0"/>
         </methods>
-      </class> <!-- zalora.testCases.selectBrandsForFilter -->
+      </class> <!-- zalora.testCases.searchAndAddProductToCart -->
     </classes>
-  </test> <!-- SelectBrandsInFilter(failed) -->
-</suite> <!-- Failed suite [TaskOne] -->
+  </test> <!-- searchAndAddProductToCart(failed) -->
+</suite> <!-- Failed suite [Zalora Offline Assignment] -->
